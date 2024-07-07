@@ -4,219 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soccer Academy</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-            <!-- Just an image -->
-<nav class="navbar navbar-dark">
-  <a class="navbar-brand" href="index.html">
-    <div class="col-12 col-md-4">
-      <img src="images/logo.png" class="img-fluid rounded-left border-lg border-0" alt="Radhika Khatri- Soccer Academy Founder">
-    </div>
-  </a>  
-</nav>
-  
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" alt="Logo" class="d-inline-block align-top mr-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <!--Button Dropdown -->
-            
-            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-            
-              <ul class="navbar-nav ml-auto">
-                <div class="newbox1">
-                <li class="nav-item" style="text-align: center;">
-                  <a class="nav-link text-light" href="index.html">Home</a>
-                </li>
-                </div>
-                <div class="newbox2">
-                <li class="nav-item" style="text-align: center;">
-                  <a class="nav-link text-light" href="#">About</a>
-                </li>
-              </div>
-              <div class="newbox3">
-                <li class="nav-item dropdown" style="text-align: justify;">
-                  <a class="nav-link text-light dropdown-toggle" href="#" id="bookOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Book Online
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="bookOnlineDropdown">
-                    <a class="dropdown-item" href="#">Visit Our Academy</a>
-                    <a class="dropdown-item" href="#">Membership Services</a>
-                    <a class="dropdown-item" href="#">Accessories</a>
-                  </div>
-                </li>
-              </div>
-              <div class="newbox4">
-                <li class="nav-item" style="text-align: justify;">
-                  <a class="nav-link text-light" href="contact-us.html">Plans</a>
-                </li>
-              </div>
-              <div class="newbox5">
-                <li class="nav-item" style="text-align: justify;">
-                  <a class="nav-link text-light" href="contact-us.html">Contacts</a>
-                </li>
-              </div>
-              
-                <li class="nav-item dropdown btn mr-5">
-                  <div class="assemble1">
-                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Batches
-                  </a>               
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Novice</a>
-                    <a class="dropdown-item" href="#">Beginner</a>
-                    <a class="dropdown-item" href="#">Intermediate</a>
-                    <a class="dropdown-item" href="#">Advance</a>
-                  </div>
-                  </div>
-                </li> 
-
-
-                 
-          
-                <!--Button Normal -->
-
-
-
-              
-                
-              </ul>
-              
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="bookOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Book Online
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="bookOnlineDropdown">
+                            <a class="dropdown-item" href="#">Visit Our Academy</a>
+                            <a class="dropdown-item" href="#">Membership Services</a>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contacts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="batchesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Batches
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="batchesDropdown">
+                            <a class="dropdown-item" href="#">Novice</a>
+                            <a class="dropdown-item" href="#">Beginner</a>
+                            <a class="dropdown-item" href="#">Intermediate</a>
+                            <a class="dropdown-item" href="#">Advance</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </nav> 
-          <!--Jombotron-->
-          <div class="jumbotron">
-              <div class="row">
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
                 <div class="col-12 col-md-7 text-center text-md-left">
-                  <h1 class="display-3 text-white drop-shadow" style="font-weight: bold">NextGen Academy</h1>
-              <p class="lead"> 
-                 Where passion meets performance and dreams become reality!</p>
-            <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
-           
+                    <h1 class="display-3 text-white drop-shadow" style="font-weight: bold">NextGen Academy</h1>
+                    <p class="lead">Where passion meets performance and dreams become reality!</p>
+                    <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
                 </div>
                 <div class="col-12 col-md-5">
-                  <img src="images/player2.png" alt="Soccer Academy" class="img-fluid">
+                    <img src="images/player2.png" alt="Soccer Academy" class="img-fluid">
                 </div>
-              </div>
-          </div>
-          <!--Carousel-->
-          <div id="carouselExampleControls" class="carousel slide d-none d-md-block carousel-fade" data-ride="carousel">
+            </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="500">
-                <img src="images/women.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-interval="500">
-                <img src="images/kids.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-interval="500">
-                <img src="images/coach.png" class="d-block w-100" alt="...">
-              </div>
+                <div class="carousel-item active" data-interval="500">
+                    <img src="images/women.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="images/kids.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="images/coach.png" class="d-block w-100" alt="...">
+                </div>
             </div>
-           <div class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-           </div>
+            <div class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </div>
             <div class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </div>
-          </div>
-         
-         
-
-          
-          <!--Card-->
-          <div class="card-deck my-5">
+        </div>
+        <div class="card-deck my-5">
             <div class="card shadow" style="width: 18rem;">
-              <img src="images/soccer-court1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Personal Training</h5>
-                <p class="card-text">Elevate your game with our personalized soccer training at our Academy! Imagine training sessions customized just for you, honing your unique strengths and tackling your specific challenges. Whether you want to dribble like a pro, shoot with pinpoint accuracy, or outsmart your opponents with strategic brilliance, our elite coaches provide expert guidance and tailored drills to help you shine.  Are you ready to become the soccer star you've always dreamed of? Join us now and to kickstart your journey!</p>
-                <a href="#" class="btn btn-primary">Book Now</a>
-              </div>
-            </div>
-            <div class="card shadow" style="width: 18rem;">
-              <img src="images/soccer-court2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Kids' Soccer</h5>
-                <p class="card-text">Kick off a world of fun and excitement with our Kids' (age group between 8-14 years) Soccer Program at the Soccer Academy! Watch your child discover the joy of the game while developing essential skills and making new friends. Our experienced coaches create a safe and engaging environment where kids learn the fundamentals of soccer through fun drills and interactive games. Ready to give your child the ultimate soccer experience? Sign up today and let's ignite their passion for the sport together!</p>
-                <a href="#" class="btn btn-primary stretched-link">Book Now</a>
-              </div>
-            </div>
-            <div class="card shadow" style="width: 18rem;">
-              <img src="images/soccer-court3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Soccer Fitness</h5>
-                <p class="card-text">Transform your fitness game with our Soccer Fitness Program designed for ages 15 and up! This isn’t just another workout—it’s an exhilarating journey where you’ll boost your endurance, strength, and agility, all while having a blast. Our expert trainers combine high-energy soccer drills with targeted fitness routines to keep you engaged and motivated. Feel faster and powerful with our advance classes. Ready to break a sweat and elevate your fitness? Join us today to achieve your goals together!</p>
-                <a href="#" class="btn btn-primary stretched-link ">Book Now</a>
-              </div>
-            </div>
-          </div>
-           <!--Founder's Message-->
-           <div class="assemble">
-            <div class="row">
-              <div class="col-12 col-md-4">
-                <img src="images/messi.png" class="img-fluid border rounded-left border-lg border-0" alt="Radhika Khatri- Soccer Coaching Founder">
-              </div>
-              <div class="col-12 col-md-8 bg-black p-5 d-flex align-items-center">
-                <div class="founder">
-                <h2>Message from our founder</h2>
-                <p>Dear Players,
-  
-                  Welcome to another exciting season at the Soccer Academy! As the founder, I am thrilled to see each of you ready to give your best on the field. Soccer is more than just a game; it's a journey of personal growth, teamwork, and relentless determination. Every practice, every drill, and every match is an opportunity to push your limits and discover your true potential.
-                  
-                  Remember, greatness isn’t achieved overnight. It’s the result of hard work, persistence, and the courage to face challenges head-on. Embrace every moment, support your teammates, and never stop believing in yourself. You have the talent, the drive, and the spirit to achieve extraordinary things.
-                  
-                  I encourage you to set your goals high and work tirelessly towards them. Celebrate your successes, learn from your setbacks, and keep moving forward. Together, we will create a legacy of excellence, camaraderie, and unforgettable moments on and off the field. Let’s make this season unforgettable. Play with heart, train with passion, and let’s achieve greatness together!              
-                                
-                  </p>
+                <img src="images/soccer-court1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Training</h5>
+                    <p class="card-text">Elevate your game with our personalized soccer training at our Academy! Imagine training sessions customized just for you, honing your unique strengths and tackling your specific challenges. Whether you want to dribble like a pro, shoot with pinpoint accuracy, or outsmart your opponents with strategic brilliance, our elite coaches provide expert guidance and tailored drills to help you shine. Are you ready to become the soccer star you've always dreamed of? Join us now and to kickstart your journey!</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
-              </div>
             </div>
-            </div>
-          <!--Contacts-->
-          <div class="assemble2">
-            <div class="row">
-              <div class="col-12 col-md-4">
-                <img src="images/player1.png" class="img-fluid border rounded-left border-lg border-0" alt="Radhika Khatri- Soccer Coaching Founder">
-              </div>
-              <div class="col-12 col-md-8 bg-black p-5 d-flex align-items-center">
-                <div class="contacts">
-                
-                <p>
-                  For Enrolling in our Academy:
-                  </p>
-                  <p>
-                  Call: +971 ********   
-                  </p>
-                  <p>
-                  Email: nextgen@gmail.com
-                  </p>
-                  <p>
-                    For more information connect us through mail:
-                   </p>
-                   <p>
-                    info_nextgen@gmail.com
-                    </p>
-              
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/soccer-court2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kids' Soccer</h5>
+                    <p class="card-text">Kick off a world of fun and excitement with our Kids' (age group between 8-14 years) Soccer Program at the Soccer Academy! Watch your child discover the joy of the game while developing essential skills and making new friends. Our experienced coaches create a safe and engaging environment where kids learn the fundamentals of soccer through fun drills and interactive games. Ready to give your child the ultimate soccer experience? Sign up today and let's ignite their passion for the sport together!</p>
+                    <a href="#" class="btn btn-primary stretched-link">Book Now</a>
                 </div>
-              </div>
             </div>
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/soccer-court3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Soccer Fitness</h5>
+                    <p class="card-text">Transform your fitness game with our Soccer Fitness Program designed for ages 15 and up! This isn't just another workout—it's an exhilarating journey where you'll boost your endurance, strength, and agility, all while having a blast. Our expert trainers combine high-energy soccer drills with targeted fitness routines to keep you engaged and motivated. Feel faster and powerful with our advance classes. Ready to break a sweat and elevate your fitness? Join us today to achieve your goals together!</p>
+                    <a href="#" class="btn btn-primary stretched-link">Book Now</a>
+                </div>
             </div>
-            <section class="maps">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14448.946779708924!2d55.37313189555474!3d25.1276874263598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f651ade6cd2cd%3A0x1e968f54affaabe1!2sStar%20football%20academy!5e0!3m2!1sen!2sae!4v1720344653065!5m2!1sen!2sae" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
-          </section>
-
-          <footer class="foot">
+        </div>
+        <div class="assemble">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="images/messi.png" class="img-fluid border rounded-left border-lg border-0" alt="Radhika Khatri- Soccer Coaching Founder">
+                </div>
+                <div class="col-12 col-md-8 bg-black p-5 d-flex align-items-center">
+                    <div class="founder">
+                        <h2>Message from our founder</h2>
+                        <p>Dear Players,</p>
+                        <p>Welcome to another exciting season at the Soccer Academy! As the founder, I am thrilled to see each of you ready to give your best on the field. Soccer is more than just a game; it's a journey of personal growth, teamwork, and relentless determination. Every practice, every drill, and every match is an opportunity to push your limits and discover your true potential.</p>
+                        <p>Remember, greatness isn't achieved overnight. It's the result of hard work, persistence, and the courage to face challenges head-on. Embrace every moment, support your teammates, and never stop believing in yourself. You have the talent, the drive, and the spirit to achieve extraordinary things.</p>
+                        <p>I encourage you to set your goals high and work tirelessly towards them. Celebrate your successes, learn from your setbacks, and keep moving forward. Together, we will create a legacy of excellence, camaraderie, and unforgettable moments on and off the field. Let's make this season unforgettable. Play with heart, train with passion, and let's achieve greatness together!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="assemble2">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="images/player1.png" class="img-fluid border rounded-left border-lg border-0" alt="Radhika Khatri- Soccer Coaching Founder">
+                </div>
+                <div class="col-12 col-md-8 bg-black p-5 d-flex align-items-center">
+                    <div class="contacts">
+                        <p>For Enrolling in our Academy:</p>
+                        <p>Call: +971 ********</p>
+                        <p>Email: nextgen@gmail.com</p>
+                        <p>For more information connect us through mail:</p>
+                        <p>info_nextgen@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14448.946779708924!2d55.37313189555474!3d25.1276874263598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f651ade6cd2cd%3A0x1e968f54affaabe1!2sStar%20football%20academy!5e0!3m2!1sen!2sae!4v1720344653065!5m2!1sen!2sae" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="foot">
             <p>Star football academy Dubai Silicon Oasis - Industrial Area - Dubai - Copyright 2024©</p>
         </footer>
+    </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
